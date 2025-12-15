@@ -130,12 +130,17 @@ export const ResetPassword = ({ methods, settings }: ResetPasswordProps) => {
       <Step>
         <StepHeader>
           <StepTitle className="relative flex w-full items-center justify-center gap-x-4 text-[26px] font-semibold">
+                      <button
+            type="button"
+            onClick={handleBack}
+            className="absolute left-0 ml-8 cursor-pointer"
+            aria-label="Go back"
+          >
             <Icons.back
               id="back-button"
               name="back-button"
-              className="absolute left-0 cursor-pointer"
-              onClick={handleBack}
             />
+          </button>
             <div className="text-center font-semibold tracking-normal">
               {t("reset_password")}
             </div>
