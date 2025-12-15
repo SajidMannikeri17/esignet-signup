@@ -183,7 +183,7 @@
 		<dependency>
 			<groupId>com.nimbusds</groupId>
 			<artifactId>oauth2-oidc-sdk</artifactId>
-			<version>11.11</version>
+			<version>11.22.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
@@ -215,13 +215,13 @@
 		<dependency>
 			<groupId>net.javacrumbs.shedlock</groupId>
 			<artifactId>shedlock-spring</artifactId>
-			<version>4.47.0</version>
+			<version>6.7.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/net.javacrumbs.shedlock/shedlock-provider-redis-spring -->
 		<dependency>
 			<groupId>net.javacrumbs.shedlock</groupId>
 			<artifactId>shedlock-provider-redis-spring</artifactId>
-			<version>4.47.0</version>
+			<version>6.7.0</version>
 		</dependency>
     </dependencies>
 
